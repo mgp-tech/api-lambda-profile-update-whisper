@@ -1,3 +1,6 @@
+using ProfileUpdate.Application.Services;
+using ProfileUpdate.Core.Adapters.Services;
+
 namespace ProfileUpdate.Core.IoC;
 
 public static class Container
@@ -8,6 +11,7 @@ public static class Container
         service.AddScoped<ISecretClient, SecretClient>();
         service.AddScoped<IUnitOfWork, UnitOfWork>();
         service.AddDbContext<DatabaseContext>();
+        service.AddScoped<IUpdateUserService, UpdateUserService>();
         service.AddAWSService<IAmazonSecretsManager>();
         RegisterRepository(service);
     }

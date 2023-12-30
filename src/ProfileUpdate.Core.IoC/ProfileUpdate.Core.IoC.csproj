@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\ProfileUpdate.Application.Services\ProfileUpdate.Application.Services.csproj" />
         <ProjectReference Include="..\ProfileUpdate.Infra.Context\ProfileUpdate.Infra.Context.csproj"/>
         <ProjectReference Include="..\ProfileUpdate.Infra.DatabaseCredential\ProfileUpdate.Infra.DatabaseCredential.csproj"/>
         <ProjectReference Include="..\ProfileUpdate.Infra.Repository\ProfileUpdate.Infra.Repository.csproj"/>
