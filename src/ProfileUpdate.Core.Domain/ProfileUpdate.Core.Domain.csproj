@@ -6,5 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ProfileUpdate.Core.Exceptions\ProfileUpdate.Core.Exceptions.csproj" />
+    </ItemGroup>
+
 
 </Project>
