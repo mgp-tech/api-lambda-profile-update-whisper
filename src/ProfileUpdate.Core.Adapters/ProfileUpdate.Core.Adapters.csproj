@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Repository\"/>
-    </ItemGroup>
-
-    <ItemGroup>
         <ProjectReference Include="..\ProfileUpdate.Core.Domain\ProfileUpdate.Core.Domain.csproj"/>
     </ItemGroup>
 

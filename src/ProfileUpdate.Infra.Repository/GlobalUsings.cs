@@ -5,3 +5,5 @@ global using ProfileUpdate.Core.Adapters.Repository.Base;
 global using ProfileUpdate.Infra.Context.DbContext;
 global using ProfileUpdate.Core.Exceptions;
 global using Microsoft.EntityFrameworkCore;
+global using ProfileUpdate.Core.Adapters.Repository.Users;
+global using ProfileUpdate.Infra.Repository.Base;
